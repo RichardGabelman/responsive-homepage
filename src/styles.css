@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+header {
+  padding: 12px;
+}
+
 #photoReplacement1 {
   width: 340px;
   height: 560px;
@@ -15,8 +19,14 @@
 ul {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   list-style-type: none;
   gap: 20px;
+}
+
+svg {
+  width: 60px;
+  height: auto;
 }
 
 a {
@@ -27,7 +37,12 @@ a:hover {
   text-decoration: underline;
 }
 
+main {
+  padding: 12px;
+}
+
 footer {
+  padding: 12px;
   background-color: lightskyblue;
   color: white;
 }
