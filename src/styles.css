@@ -13,6 +13,8 @@ header {
 
 .photoContainer {
   position: relative;
+  width: min-content;
+  margin: 0 auto;
 }
 
 #photoReplacement1 {
@@ -24,6 +26,7 @@ header {
 }
 
 h1 {
+  width: min-content;
   position: absolute;
   bottom: 15px;
   left: 15px;
