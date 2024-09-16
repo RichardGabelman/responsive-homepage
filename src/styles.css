@@ -44,6 +44,10 @@ main {
   padding: 12px;
 }
 
+.project {
+  box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
 footer section {
   display: flex;
   flex-direction: column;
