@@ -44,8 +44,59 @@ main {
   padding: 12px;
 }
 
+.projectCards {
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
+}
+
 .project {
   box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.2);
+}
+
+.screenshot {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  font-size: 4rem;
+  padding: 30px;
+  color: white;
+}
+
+.purple {
+  background-color: rgb(156, 98, 156);
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 175px;
+  padding: 15px;
+}
+
+.info a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.info a:link,
+.info a:visited {
+  color: black;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  gap: 15px;
+}
+
+.icons svg {
+  width: 30px;
 }
 
 footer section {
