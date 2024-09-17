@@ -255,7 +255,8 @@ footer svg {
     justify-content: start;
   }
   .screenshot {
-    font-size: 2.6rem;
+    font-size: 2.9rem;
+    text-align: center;
   }
   .phone,
   .email {
