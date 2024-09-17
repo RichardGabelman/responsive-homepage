@@ -18,14 +18,16 @@ p {
 }
 
 header {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 12px;
+  overflow: hidden;
 }
 
 .headerAccent {
   position: absolute;
-  width: 150%;
+  width: 100%;
   height: 700px;
   background-color: rgb(0, 123, 160);
   transform: skew(-33deg) rotate(-33deg) translateY(-325px);
@@ -114,7 +116,7 @@ h2 {
   align-items: center;
   height: 350px;
   font-family: "Playfair Display";
-  font-size: 3.3rem;
+  font-size: 3rem;
   padding: 40px;
   color: white;
 }
@@ -151,8 +153,8 @@ h3 {
   display: flex;
   flex-direction: column;
   gap: 20px;
-  height: 200px;
   padding: 20px;
+  padding-bottom: 80px;
 }
 
 .info a {
@@ -236,6 +238,9 @@ footer svg {
   }
   .projectCards {
     grid-template-columns: 1fr 1fr;
+  }
+  ul {
+    justify-content: start;
   }
 }
 
