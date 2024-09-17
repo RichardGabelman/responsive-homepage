@@ -97,9 +97,10 @@ h2 {
 }
 
 .projectCards {
-  display: flex;
-  flex-direction: column;
-  gap: 75px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 56px;
+  column-gap: 28px;
 }
 
 .project {
@@ -218,4 +219,28 @@ footer svg {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+@media (min-width: 500px) {
+  .headerAccent {
+    transform: skew(-20deg) rotate(-20deg) translateY(-400px);
+  }
+  header ul {
+    display: none;
+  }
+  h2 {
+    text-align: start;
+  }
+  section {
+    padding: 55px;
+  }
+  .projectCards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1024px) {
+  .projectCards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
 }
