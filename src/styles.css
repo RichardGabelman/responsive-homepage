@@ -271,8 +271,11 @@ footer svg {
     fill: white;
     width: 25px;
   }
+  .contactInfo {
+    width: 50%;
+  }
   footer p {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
   }
   footer {
     position: relative;
@@ -281,12 +284,12 @@ footer svg {
     position: absolute;
     width: 275px;
     height: 400px;
-    right: 10%;
-    top: 7.5%;
+    right: 7.5%;
+    top: 12.5%;
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   .projectCards {
     grid-template-columns: 1fr 1fr 1fr;
   }
