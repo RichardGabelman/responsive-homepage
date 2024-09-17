@@ -190,10 +190,16 @@ footer section {
   color: white;
 }
 
-div.contactInfo {
+.contactInfo {
   display: flex;
   flex-direction: column;
-  gap: 35px;
+  gap: 40px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 footer p {
@@ -260,9 +266,23 @@ footer svg {
   }
   .phone svg,
   .email svg {
+    margin-top: 2px;
     display: block;
     fill: white;
-    width: 32px;
+    width: 25px;
+  }
+  footer p {
+    font-size: 1.1rem;
+  }
+  footer {
+    position: relative;
+  }
+  .imageReplacement2 {
+    position: absolute;
+    width: 275px;
+    height: 400px;
+    right: 10%;
+    top: 7.5%;
   }
 }
 
