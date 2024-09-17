@@ -173,7 +173,7 @@ h3 {
 .icons {
   display: flex;
   flex-direction: row;
-  gap: 15px;
+  gap: 5px;
 }
 
 .icons svg {
@@ -209,6 +209,12 @@ footer svg {
   width: 45px;
 }
 
+.phone svg,
+.email svg {
+  display: none;
+}
+
+
 .imageReplacement2 {
   width: 100%;
   height: 700px;
@@ -241,6 +247,22 @@ footer svg {
   }
   ul {
     justify-content: start;
+  }
+  .screenshot {
+    font-size: 2.6rem;
+  }
+  .phone,
+  .email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+  .phone svg,
+  .email svg {
+    display: block;
+    fill: white;
+    width: 32px;
   }
 }
 
