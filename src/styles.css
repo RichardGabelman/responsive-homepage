@@ -126,6 +126,7 @@ h2 {
   font-size: 2.5rem;
   padding: 30px;
   color: white;
+  text-align: center;
 }
 
 .purple {
@@ -242,7 +243,7 @@ footer svg {
   align-items: center;
 }
 
-@media (min-width: 560px) {
+@media (min-width: 581px) {
   header {
     padding-top: 25px;
   }
@@ -295,6 +296,9 @@ footer svg {
     padding-bottom: 40px;
     height: max-content;
   }
+  .info a {
+    padding-left: 0px;
+  }
   h3 {
     font-size: 1.2rem;
   }
@@ -336,9 +340,27 @@ footer svg {
 @media (min-width: 1025px) {
   .projectCards {
     grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 40px;
   }
   .screenshot {
     font-size: 2.6rem;
     height: 300px;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: 1.9rem;
+  }
+  .icons svg {
+    width: 32px;
+  }
+  .screenshot {
+    font-size: 3rem;
+    height: 360px;
+  }
+  .info p {
+    font-size: 1.5rem;
   }
 }
