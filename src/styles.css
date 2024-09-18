@@ -294,4 +294,8 @@ footer svg {
   .projectCards {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .screenshot {
+    font-size: 2.6rem;
+    height: 300px;
+  }
 }
