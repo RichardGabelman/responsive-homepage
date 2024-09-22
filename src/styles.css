@@ -31,6 +31,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  background-color: white;
 }
 
 .headerAccent {
@@ -40,6 +41,7 @@ header {
   background-color: rgb(0, 123, 160);
   transform: skew(-33deg) rotate(-33deg) translateY(-325px);
   box-shadow: 2px 2px 10px 2px rgba(0, 0, 0, 0.2);
+  z-index: -1;
 }
 
 .photoContainer {
@@ -67,6 +69,7 @@ h1 {
 }
 
 .photoAndName {
+  padding-top: 15px;
   position: relative;
   width: max-content;
   margin: 0 auto;
@@ -201,6 +204,7 @@ h3 {
 footer section {
   background-color: rgb(47, 136, 190);
   color: white;
+  padding-bottom: 100px;
 }
 
 .contactInfo {
@@ -249,10 +253,15 @@ footer svg {
 }
 
 @media (min-width: 576px) {
+  .tabletHelper {
+    width: 100%;
+    border: 1px solid red;
+    z-index: 1;
+  }
   .photoContainer {
     margin: 0;
     padding: 15px;
-    width: 55%;
+    width: 450px;
     max-width: 450px;
   }
   #photoReplacement1 {
@@ -261,7 +270,12 @@ footer svg {
     height: 450px;
   }
   .photoAndName {
-    width: 100%;
+    float: left;
+  }
+  header section {
+    background-color: white;
+    border: 1px solid green;
+    overflow: hidden;
   }
   h1 {
     width: max-content;
