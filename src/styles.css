@@ -27,7 +27,7 @@ header {
   padding-bottom: 50px;
 }
 
-.aboutSect {
+header section {
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -46,6 +46,9 @@ header {
 
 .photoContainer {
   position: relative;
+  padding-top: 15px;
+  display: flex;
+  justify-content: center;
   width: max-content;
   margin: 0 auto;
 }
@@ -66,13 +69,6 @@ h1 {
   text-shadow: 1px 1px 2px black;
   bottom: 15px;
   left: 15px;
-}
-
-.photoAndName {
-  padding-top: 15px;
-  position: relative;
-  width: max-content;
-  margin: 0 auto;
 }
 
 section {
@@ -255,34 +251,46 @@ footer svg {
 @media (min-width: 576px) {
   .tabletHelper {
     width: 100%;
-    border: 1px solid red;
-    z-index: 1;
   }
   .photoContainer {
-    margin: 0;
-    padding: 15px;
-    width: 450px;
-    max-width: 450px;
-  }
-  #photoReplacement1 {
-    margin: 0;
-    width: 100%;
-    height: 450px;
-  }
-  .photoAndName {
+    margin-left: 25px;
+    margin-top: 25px;
+    margin-right: 25px;
+    padding: 0px;
+    width: 50%;
     float: left;
   }
-  header section {
+  #photoReplacement1 {
+    margin: 0px;
+    width: 100%;
+    height: 470px;
+  }
+  .aboutSect {
+    display: block;
     background-color: white;
-    border: 1px solid green;
-    overflow: hidden;
+    margin-left: 75px;
+    margin-right: 75px;
+    margin-top: 120px;
+    padding: 25px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    box-shadow: 1px 1px 6px 2px rgba(0, 0, 0, 0.2);
+  }
+  .aboutSect h2 {
+    font-size: 2.3rem;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .aboutSect p {
+    font-size: 1.3rem;
   }
   h1 {
     width: max-content;
-    right: 40px;
+    right: -225px;
     left: auto;
     bottom: auto;
-    top: 35px;
+    top: 10px;
+    font-size: 3rem;
     }
   .headerAccent {
     transform: skew(-20deg) rotate(-20deg) translateY(-400px);
@@ -291,6 +299,7 @@ footer svg {
     display: none;
   }
   h2 {
+    font-weight: 400;
     text-align: start;
   }
   section {
@@ -350,6 +359,28 @@ footer svg {
     height: 400px;
     right: 7.5%;
     top: 12.5%;
+  }
+}
+
+@media (min-width: 700px) {
+  h1 {
+    right: -275px;
+  }
+}
+@media (min-width: 725px) {
+  h1 {
+    right: -300px;
+  }
+}
+@media (min-width: 825px) {
+  h1 {
+    right: -325px;
+    font-size: 3.3rem;
+  }
+}
+@media (min-width: 900px) {
+  h1 {
+    right: -350px;
   }
 }
 
