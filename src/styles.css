@@ -258,12 +258,13 @@ footer svg {
     margin-right: 25px;
     padding: 0px;
     width: 49%;
+    height: 470px;
     float: left;
   }
   #photoReplacement1 {
     margin: 0px;
     width: 100%;
-    height: 470px;
+    height: 100%;
   }
   .aboutSect {
     display: block;
@@ -385,20 +386,68 @@ footer svg {
 }
 
 @media (min-width: 992px) {
+  .headerAccent {
+    transform: skew(-10deg) rotate(-10deg) translateY(-270px);
+  }
+  .photoContainer {
+    width: 35%;
+    min-width: 500px;
+    height: 600px;
+    margin-left: calc(min(4%, 120px));
+    margin-top: 50px;
+    margin-right: -5px;
+  }
+  h1 {
+    top: auto;
+    right: auto;
+    bottom: 15px;
+  }
+  .aboutSect {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    margin-top: 120px;
+    margin-right: calc(min(4%, 120px));
+    padding: 30px;
+    padding-left: 50px;
+    padding-top: 50px;
+    min-height: 350px;
+  }
+  .aboutSect h2 {
+    text-align: start;
+    font-size: 2.4rem;
+  }
+  .aboutSect p {
+    font-size: 1.2rem;
+  }
+  header ul {
+    margin-top: 25px;
+    display: flex;
+    justify-content: end;
+  }
+  header svg {
+    width: 30px;
+  }
+  section {
+    padding-left: calc(min(5%, 100px));
+    padding-right: calc(min(5%, 100px));
+  }
   .projectCards {
     grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 30px;
-    row-gap: 40px;
+    column-gap: calc(min(3%, 50px));
+    row-gap: 70px;
   }
   .screenshot {
-    font-size: 2.6rem;
     height: 300px;
+  }
+  .screenshot span {
+    font-size: 2.3rem;
   }
   h2 {
     font-size: 3rem;
   }
   h3 {
-    font-size: 1.9rem;
+    font-size: 1.7rem;
   }
   .icons svg {
     width: 32px;
@@ -409,5 +458,9 @@ footer svg {
   }
   .info p {
     font-size: 1.5rem;
+  }
+  .imageReplacement2 {
+    width: 43%;
+    height: 78%;
   }
 }
