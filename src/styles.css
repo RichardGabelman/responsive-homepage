@@ -283,7 +283,7 @@ footer svg {
     margin-bottom: 15px;
   }
   .aboutSect p {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
   }
   h1 {
     width: max-content;
@@ -392,9 +392,9 @@ footer svg {
   .photoContainer {
     width: 35%;
     min-width: 500px;
-    height: 600px;
+    height: 580px;
     margin-left: calc(min(4%, 120px));
-    margin-top: 50px;
+    margin-top: 45px;
     margin-right: -5px;
   }
   h1 {
