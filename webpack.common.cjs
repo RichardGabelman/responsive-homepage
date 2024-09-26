@@ -34,13 +34,15 @@ module.exports = {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: "asset/resource",
       },
-      
+      */
+     
       // For images referenced in our HTML template
-      npm install --save-dev html-loader
+      // npm install --save-dev html-loader
       {
         test: /\.html$/i,
         loader: "html-loader",
       },
+      /*
       // For data files (CSV, TSV, XML)
       npm install --save-dev csv-loader xml-loader
       {
