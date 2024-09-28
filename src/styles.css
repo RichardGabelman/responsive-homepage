@@ -283,6 +283,7 @@ footer img {
     font-size: 3rem;
     }
   .headerAccent {
+    height: 700px;
     transform: skew(-20deg) rotate(-20deg) translateY(-400px);
   }
   header ul {
@@ -377,6 +378,7 @@ footer img {
 
 @media (min-width: 992px) {
   .headerAccent {
+    height: 600px;
     transform: skew(-10deg) rotate(-10deg) translateY(-270px);
   }
   .photoContainer {
